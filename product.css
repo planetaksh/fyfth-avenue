@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+@charset "utf-8";
+
+{
+ margin: 0;
+}
+
+.header {
+  background-color: #f37021;
+  padding: 50px;
+  text-align: center;
+	font-family: copperplate gothic;
+	font-size: 30px;
+}
+
+
+.header1 {
+	background-color: #f37021;
+  padding: 10px;
+  text-align: center;
+	font-family: copperplate gothic;
+	font-size: 30px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+	border-bottom: 3px solid black;
+}
+
+li {
+  float: left;
+	border-right: 1px solid #000000
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+	font-family: copperplate gothic;
+}
+
+li a:hover:not(.active), .dropbtn:hover .dropbtn {
+  background-color: #F37021;
+}
+
+.active {
+  background-color: #f37021;
+}
+
+li.dropdown {
+  display: inline-block;
+	
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+	border-bottom: 1px solid #000000
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.cool {
+  padding: 0px;
+  background-color: white;
+  transition: transform .5s; 
+  width: 400px;
+  height: 300px;
+  margin-right: 100px;
+}
+
+.cool:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.hot {
+  padding: 0px;
+  background-color: white;
+  transition: transform .5s; 
+  width: 300px;
+  height: 400px;
+  margin-left: 200px;
+}
+
+.hot:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.abc {
+  padding-top: px;
+	padding-bottom: 0px;
+  background-color: white;
+  transition: transform .5s; 
+  width: 120px;
+	height: 30px;
+  margin-bottom: auto;
+	margin-top: auto;
+}
+
+.abc:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.footer {
+  background-color: #F37021;
+  padding-top: 40px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: copperplate gothic;
+	font-size: 18px
+}
+
+.link{
+	color: black;
+}
+
+.link:hover {
+	color: white;
+}
+
+	.head {
+        position: relative;
+        display: inline-block;
+       
+    }
+    .head .head-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .head:hover .head-top {
+        display: inline;
+    }
+.card {
+        position: relative;
+        display: inline-block;
+       
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+    }
+
+
